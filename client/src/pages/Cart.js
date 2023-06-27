@@ -14,7 +14,7 @@ const Cart = () => {
       price += item.price * item.quantity;
       return price;
     })
-    setTotalAmt(price.toFixednp(2));
+    setTotalAmt(price.toFixed(2));
   },[productData]);
   return (
     <div>
